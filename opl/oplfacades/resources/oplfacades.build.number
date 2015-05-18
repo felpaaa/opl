@@ -1,0 +1,9 @@
+#Ant properties
+#Mon Mar 23 16:51:59 CET 2015
+builddate=20150323 1651
+description=oplfacades
+name=oplfacades
+releasedate=20150311 1421
+vendor=hybris
+version=5.5.1.0
+version.api=5.5.1
