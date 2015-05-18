@@ -1,0 +1,64 @@
+# Ignoring .svn folder
+.svn/*
+
+# Git files created by Eclipse
+**/.gitginore
+
+
+######################
+# Hybris 
+######################
+
+# Files
+platformhome.properties
+**/*-testclasses.xml
+**/*-webtestclasses.xml
+.pmd
+.spring[Bb]eans
+
+# Folders
+# Folders - Hybris Specific
+data/
+log/
+sampleconfigurations/
+temp/
+.metadata/
+bin/ext-*/
+bin/platform/
+RemoteSystemsTempFiles/
+.externalToolBuilders/
+licences/
+config/*
+!config/localextensions.xml
+!config/local.properties.build
+!config/junitexcludelist.txt
+
+ 
+# Folders - Automagically Generated
+classes/
+gensrc/
+hmc/bin/
+hmc/classes
+web/addonsrc/
+web/commonwebsrc/
+web/testclasses/
+web/webroot/_ui/addons/
+web/webroot/cmscockpit/
+web/webroot/cockpit/
+web/webroot/productcockpit/
+web/webroot/WEB-INF/addons/
+web/webroot/WEB-INF/classes/
+web/webroot/WEB-INF/messages/addons/
+web/webroot/WEB-INF/tags/addons/
+web/webroot/WEB-INF/tld/addons/
+web/webroot/WEB-INF/views/addons/
+
+*.class
+.settings/
+eclipsebin/
+*-testclasses.xml
+*-webtestclasses.xml
+extensioninfo.xsd
+
+.sonar/
+
